@@ -1,10 +1,10 @@
-# 🐦 Twitter Sentiment Analysis using Machine Learning
+## 🐦 Twitter Sentiment Analysis using Machine Learning
 This project focuses on analyzing the sentiment of tweets using machine learning and Natural Language Processing (NLP). The notebook guides you through the full pipeline — from preprocessing raw text to building and evaluating a sentiment classification model.
 
-📌 Overview
+#📌 Overview
 Goal: Classify tweets into categories such as positive, negative, or neutral.
 
-Techniques used:
+#Techniques used:
 
 Text preprocessing (cleaning, tokenization, stopword removal)
 
@@ -14,11 +14,11 @@ Model training using traditional ML algorithms
 
 Evaluation using accuracy, confusion matrix, etc.
 
-📁 Files
+#📁 Files
 
 File	Description
 twitter_sentiment.ipynb	Jupyter Notebook containing all preprocessing, modeling, and evaluation steps.
-⚙️ Tech Stack
+#⚙️ Tech Stack
 Language: Python
 
 Libraries:
@@ -31,7 +31,7 @@ nltk
 
 matplotlib / seaborn (optional for visualization)
 
-🚀 How to Run
+#🚀 How to Run
 Install required packages:
 
 bash
@@ -46,9 +46,7 @@ Edit
 jupyter notebook
 Open twitter_sentiment (1).ipynb and run the cells in sequence.
 
-(Optional) Download the tweet dataset from Kaggle or other sources and place it in the working directory.
-
-🔎 What’s Inside
+#🔎 What’s Inside
 Step 1: Data Loading
 
 Step 2: Cleaning Tweets (removing links, mentions, hashtags, special chars)
@@ -61,7 +59,7 @@ Step 5: Sentiment Classification (e.g., Logistic Regression / Naive Bayes)
 
 Step 6: Model Evaluation
 
-📈 Model Evaluation
+#📈 Model Evaluation
 Performance metrics include:
 
 Accuracy
